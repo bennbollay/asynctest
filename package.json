@@ -1,0 +1,16 @@
+{
+  "name": "asynctest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "libc/index.js",
+  "scripts": {
+    "build": "tsc -b",
+    "start": "node libc/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^13.13.4"
+  }
+}
