@@ -1,0 +1,378 @@
+{
+  "name": "root",
+  "value": 10531862200,
+  "children": [
+    {
+      "name": "libc/index.js+68:42 - null - top ",
+      "tooltip": "1/2->3 - PROMISE\nlibc/index.js+68:42 - null - top \nlibc/index.js+72:3 - null - \n",
+      "timing": {
+        "onInit": 61207651162300,
+        "onBefore": 0,
+        "onAfter": 0,
+        "onPromiseResolve": 61207651700000,
+        "onDestroy": 61207661291100,
+        "duration": 545700
+      },
+      "children": [],
+      "value": 545700
+    },
+    {
+      "name": "libc/index.js+68:42 - null - top ",
+      "tooltip": "1/3->4 - PROMISE\nlibc/index.js+68:42 - null - top \nlibc/index.js+72:3 - null - \n",
+      "timing": {
+        "onInit": 61207651567800,
+        "onBefore": 61207659535000,
+        "onAfter": 61207661029700,
+        "onPromiseResolve": 61207661011900,
+        "onDestroy": 0,
+        "duration": 9446800
+      },
+      "children": [
+        {
+          "name": "libc/test.js+1:1 - fullTestFunc - ",
+          "tooltip": "4/4->8 - PROMISE\nlibc/test.js+1:1 - fullTestFunc - \nlibc/index.js+69:18 - null - top \n",
+          "timing": {
+            "onInit": 61207659619300,
+            "onBefore": 0,
+            "onAfter": 0,
+            "onPromiseResolve": 61209665946200,
+            "onDestroy": 0,
+            "duration": 2006329000
+          },
+          "children": [],
+          "value": 2006329000
+        },
+        {
+          "name": "libc/test.js+1:1 - testAsyncPromises - top ",
+          "tooltip": "4/4->9 - PROMISE\nlibc/test.js+1:1 - testAsyncPromises - top \nlibc/test.js+26:11 - fullTestFunc - \nlibc/index.js+69:18 - null - top \n",
+          "timing": {
+            "onInit": 61207659773200,
+            "onBefore": 0,
+            "onAfter": 0,
+            "onPromiseResolve": 61209665924200,
+            "onDestroy": 0,
+            "duration": 2006153200
+          },
+          "children": [],
+          "value": 2006153200
+        },
+        {
+          "name": "libc/test.js+8:11 - testAsyncPromises - top ",
+          "tooltip": "4/4->10 - PROMISE\nlibc/test.js+8:11 - testAsyncPromises - top \nlibc/test.js+26:11 - fullTestFunc - \nlibc/index.js+69:18 - null - top \n",
+          "timing": {
+            "onInit": 61207659955400,
+            "onBefore": 0,
+            "onAfter": 0,
+            "onPromiseResolve": 61208162298800,
+            "onDestroy": 0,
+            "duration": 502346800
+          },
+          "children": [],
+          "value": 502346800
+        },
+        {
+          "name": "libc/test.js+8:44 - null - top ",
+          "tooltip": "4/4->11 - Timeout\nlibc/test.js+8:44 - null - top \n",
+          "timing": {
+            "onInit": 61207660360700,
+            "onBefore": 61208161456200,
+            "onAfter": 61208162324500,
+            "onPromiseResolve": 0,
+            "onDestroy": 61208663076700,
+            "duration": 501966600
+          },
+          "children": [
+            {
+              "name": "libc/test.js+1:1 - null - ",
+              "tooltip": "11/11->15 - PROMISE\nlibc/test.js+1:1 - null - \n",
+              "timing": {
+                "onInit": 61208161541900,
+                "onBefore": 0,
+                "onAfter": 0,
+                "onPromiseResolve": 61208162310100,
+                "onDestroy": 0,
+                "duration": 770800
+              },
+              "children": [],
+              "value": 770800
+            },
+            {
+              "name": "",
+              "tooltip": "11/11->16 - TickObject\n",
+              "timing": {
+                "onInit": 61208162243400,
+                "onBefore": 61208162442400,
+                "onAfter": 61208162465500,
+                "onPromiseResolve": 0,
+                "onDestroy": 61208663085000,
+                "duration": 224900
+              },
+              "children": [],
+              "value": 224900
+            }
+          ],
+          "value": 501966600
+        },
+        {
+          "name": "libc/test.js+8:11 - testAsyncPromises - top ",
+          "tooltip": "4/10->12 - PROMISE\nlibc/test.js+8:11 - testAsyncPromises - top \nlibc/test.js+26:11 - fullTestFunc - \nlibc/index.js+69:18 - null - top \n",
+          "timing": {
+            "onInit": 61207660902200,
+            "onBefore": 61208162482200,
+            "onAfter": 61208162699600,
+            "onPromiseResolve": 61208162691000,
+            "onDestroy": 0,
+            "duration": 501791800
+          },
+          "children": [
+            {
+              "name": "libc/test.js+12:11 - testAsyncPromises - top ",
+              "tooltip": "12/12->17 - PROMISE\nlibc/test.js+12:11 - testAsyncPromises - top \nlibc/test.js+26:5 - fullTestFunc - async \nlibc/index.js+69:5 - null - top async \n",
+              "timing": {
+                "onInit": 61208162494700,
+                "onBefore": 0,
+                "onAfter": 0,
+                "onPromiseResolve": 61208663511100,
+                "onDestroy": 0,
+                "duration": 501019800
+              },
+              "children": [],
+              "value": 501019800
+            },
+            {
+              "name": "libc/test.js+12:44 - null - top ",
+              "tooltip": "12/12->18 - Timeout\nlibc/test.js+12:44 - null - top \n",
+              "timing": {
+                "onInit": 61208162597500,
+                "onBefore": 61208663119200,
+                "onAfter": 61208663535200,
+                "onPromiseResolve": 0,
+                "onDestroy": 61209164205000,
+                "duration": 500940800
+              },
+              "children": [
+                {
+                  "name": "libc/test.js+1:1 - null - ",
+                  "tooltip": "18/18->20 - PROMISE\nlibc/test.js+1:1 - null - \n",
+                  "timing": {
+                    "onInit": 61208663216700,
+                    "onBefore": 0,
+                    "onAfter": 0,
+                    "onPromiseResolve": 61208663523300,
+                    "onDestroy": 0,
+                    "duration": 309200
+                  },
+                  "children": [],
+                  "value": 309200
+                },
+                {
+                  "name": "",
+                  "tooltip": "18/18->21 - TickObject\n",
+                  "timing": {
+                    "onInit": 61208663460600,
+                    "onBefore": 61208663564600,
+                    "onAfter": 61208663588300,
+                    "onPromiseResolve": 0,
+                    "onDestroy": 61209164212700,
+                    "duration": 130800
+                  },
+                  "children": [],
+                  "value": 130800
+                }
+              ],
+              "value": 500940800
+            },
+            {
+              "name": "libc/test.js+12:11 - testAsyncPromises - top ",
+              "tooltip": "12/17->19 - PROMISE\nlibc/test.js+12:11 - testAsyncPromises - top \nlibc/test.js+26:5 - fullTestFunc - async \nlibc/index.js+69:5 - null - top async \n",
+              "timing": {
+                "onInit": 61208162653300,
+                "onBefore": 61208663607100,
+                "onAfter": 61208663911100,
+                "onPromiseResolve": 61208663899500,
+                "onDestroy": 0,
+                "duration": 501250000
+              },
+              "children": [
+                {
+                  "name": "libc/test.js+16:11 - testAsyncPromises - top ",
+                  "tooltip": "19/19->22 - PROMISE\nlibc/test.js+16:11 - testAsyncPromises - top \nlibc/test.js+26:5 - fullTestFunc - async \nlibc/index.js+69:5 - null - top async \n",
+                  "timing": {
+                    "onInit": 61208663628600,
+                    "onBefore": 0,
+                    "onAfter": 0,
+                    "onPromiseResolve": 61209164592400,
+                    "onDestroy": 0,
+                    "duration": 500967400
+                  },
+                  "children": [],
+                  "value": 500967400
+                },
+                {
+                  "name": "libc/test.js+16:44 - null - top ",
+                  "tooltip": "19/19->23 - Timeout\nlibc/test.js+16:44 - null - top \n",
+                  "timing": {
+                    "onInit": 61208663775100,
+                    "onBefore": 61209164249400,
+                    "onAfter": 61209164618800,
+                    "onPromiseResolve": 0,
+                    "onDestroy": 61209665409200,
+                    "duration": 500847000
+                  },
+                  "children": [
+                    {
+                      "name": "libc/test.js+1:1 - null - ",
+                      "tooltip": "23/23->25 - PROMISE\nlibc/test.js+1:1 - null - \n",
+                      "timing": {
+                        "onInit": 61209164344800,
+                        "onBefore": 0,
+                        "onAfter": 0,
+                        "onPromiseResolve": 61209164604900,
+                        "onDestroy": 0,
+                        "duration": 262900
+                      },
+                      "children": [],
+                      "value": 262900
+                    },
+                    {
+                      "name": "",
+                      "tooltip": "23/23->26 - TickObject\n",
+                      "timing": {
+                        "onInit": 61209164543900,
+                        "onBefore": 61209164710200,
+                        "onAfter": 61209164737800,
+                        "onPromiseResolve": 0,
+                        "onDestroy": 61209665417500,
+                        "duration": 197100
+                      },
+                      "children": [],
+                      "value": 197100
+                    }
+                  ],
+                  "value": 500847000
+                },
+                {
+                  "name": "libc/test.js+16:11 - testAsyncPromises - top ",
+                  "tooltip": "19/22->24 - PROMISE\nlibc/test.js+16:11 - testAsyncPromises - top \nlibc/test.js+26:5 - fullTestFunc - async \nlibc/index.js+69:5 - null - top async \n",
+                  "timing": {
+                    "onInit": 61208663843800,
+                    "onBefore": 61209164761400,
+                    "onAfter": 61209165062500,
+                    "onPromiseResolve": 61209165046800,
+                    "onDestroy": 0,
+                    "duration": 501209800
+                  },
+                  "children": [
+                    {
+                      "name": "libc/test.js+20:11 - testAsyncPromises - top ",
+                      "tooltip": "24/24->27 - PROMISE\nlibc/test.js+20:11 - testAsyncPromises - top \nlibc/test.js+26:5 - fullTestFunc - async \nlibc/index.js+69:5 - null - top async \n",
+                      "timing": {
+                        "onInit": 61209164777500,
+                        "onBefore": 0,
+                        "onAfter": 0,
+                        "onPromiseResolve": 61209665814300,
+                        "onDestroy": 0,
+                        "duration": 501039600
+                      },
+                      "children": [],
+                      "value": 501039600
+                    },
+                    {
+                      "name": "libc/test.js+20:44 - null - top ",
+                      "tooltip": "24/24->28 - Timeout\nlibc/test.js+20:44 - null - top \n",
+                      "timing": {
+                        "onInit": 61209164922700,
+                        "onBefore": 61209665463500,
+                        "onAfter": 61209665843700,
+                        "onPromiseResolve": 0,
+                        "onDestroy": 0,
+                        "duration": 500925500
+                      },
+                      "children": [
+                        {
+                          "name": "libc/test.js+1:1 - null - ",
+                          "tooltip": "28/28->30 - PROMISE\nlibc/test.js+1:1 - null - \n",
+                          "timing": {
+                            "onInit": 61209665561000,
+                            "onBefore": 0,
+                            "onAfter": 0,
+                            "onPromiseResolve": 61209665824600,
+                            "onDestroy": 0,
+                            "duration": 265800
+                          },
+                          "children": [],
+                          "value": 265800
+                        },
+                        {
+                          "name": "",
+                          "tooltip": "28/28->31 - TickObject\n",
+                          "timing": {
+                            "onInit": 61209665762300,
+                            "onBefore": 61209665878900,
+                            "onAfter": 61209665900000,
+                            "onPromiseResolve": 0,
+                            "onDestroy": 0,
+                            "duration": 140100
+                          },
+                          "children": [],
+                          "value": 140100
+                        }
+                      ],
+                      "value": 500925500
+                    },
+                    {
+                      "name": "libc/test.js+20:11 - testAsyncPromises - top ",
+                      "tooltip": "24/27->29 - PROMISE\nlibc/test.js+20:11 - testAsyncPromises - top \nlibc/test.js+26:5 - fullTestFunc - async \nlibc/index.js+69:5 - null - top async \n",
+                      "timing": {
+                        "onInit": 61209164993900,
+                        "onBefore": 61209665918400,
+                        "onAfter": 61209665936200,
+                        "onPromiseResolve": 61209665930300,
+                        "onDestroy": 0,
+                        "duration": 500938400
+                      },
+                      "children": [],
+                      "value": 500938400
+                    }
+                  ],
+                  "value": 1502903500
+                }
+              ],
+              "value": 2504717900
+            }
+          ],
+          "value": 3506678500
+        },
+        {
+          "name": "libc/test.js+26:11 - fullTestFunc - ",
+          "tooltip": "4/9->13 - PROMISE\nlibc/test.js+26:11 - fullTestFunc - \nlibc/index.js+69:18 - null - top \n",
+          "timing": {
+            "onInit": 61207660952100,
+            "onBefore": 61209665942400,
+            "onAfter": 61209665957400,
+            "onPromiseResolve": 61209665952000,
+            "onDestroy": 0,
+            "duration": 2005001900
+          },
+          "children": [],
+          "value": 2005001900
+        }
+      ],
+      "value": 10528476000
+    },
+    {
+      "name": "",
+      "tooltip": "1/1->7 - TickObject\n",
+      "timing": {
+        "onInit": 61207656552900,
+        "onBefore": 61207659025000,
+        "onAfter": 61207659384600,
+        "onPromiseResolve": 0,
+        "onDestroy": 61207661307900,
+        "duration": 2840500
+      },
+      "children": [],
+      "value": 2840500
+    }
+  ]
+}
